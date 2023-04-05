@@ -1,6 +1,45 @@
+.app{
+  display: flex;
+  width: 90%;
+  margin: 100px auto;
+  justify-content: space-around;
+}
+
 .box{
-    width: 200px;
-    height: 200px;
-    background-color: #000;
-    margin: 0 auto 15px;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: 0 auto 15px;
+  text-align: center;
+  line-height: 200px;
+  font-size: 50px;
+  color: #000;
+}
+
+a{
+  text-decoration: none;
+}
+
+.box1{
+  background-color: red;
+}
+  
+.box2{
+  background-color: green;
+}
+
+.box3{
+  background-color: blue;
+}
+
+.box1:hover{
+  background-color: green;
+}
+
+.box2:hover{
+  background-color: blue;
+}
+
+.box3:hover{
+  background-color: red;
 }
